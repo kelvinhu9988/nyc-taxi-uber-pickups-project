@@ -7,7 +7,7 @@ object GenerateComparisonData {
 	def main(args: Array[String]) {
 		// Specify the path to local data files
 		val DATA_HOME = "/Users/Kelvin/Desktop/Big_Data_Application/Final_Project/data"
-		val OUT_HOME = "/Users/Kelvin/Desktop/Big_Data_Application/Final_Project/nyc-taxi-uber-pickups-project/output"
+		val OUT_HOME = "/Users/Kelvin/Desktop/Big_Data_Application/Final_Project/output"
 		val yellowFile = DATA_HOME + "/yellow_tripdata_2014-04.csv"
 		val greenFile = DATA_HOME + "/green_tripdata_2014-04.csv"
 		val uberFile = DATA_HOME + "/uber-raw-data-apr14.csv"
